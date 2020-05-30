@@ -13,4 +13,6 @@ public class Account{
         this.nazwakonta = nazwakonta;
     }
 
+    public Account() {
+    }
 }
