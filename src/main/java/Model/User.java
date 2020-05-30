@@ -23,12 +23,12 @@ public class User {
         this.name = name;
     }
 
-    public String getSecondname() {
+    public String getLastname() {
         return lastname;
     }
 
-    public void setSecondname(String secondname) {
-        this.lastname = secondname;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public User(int id, String name, String secondname) {

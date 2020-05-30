@@ -1,6 +1,8 @@
 package Model;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 public class Bank extends Account {
 
@@ -19,4 +21,10 @@ public class Bank extends Account {
         this.idbanku = idbanku;
         this.nazwabanku = nazwabanku;
     }
+
+    public List<Account> accountListList;
+
+
+    }
+
 }
