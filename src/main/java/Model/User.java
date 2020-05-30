@@ -2,10 +2,18 @@ package Model;
 
 public class User {
 
-    public String name;
-    public String secondname;
     public int id;
+    public String name;
+    public String lastname;
 
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -16,18 +24,16 @@ public class User {
     }
 
     public String getSecondname() {
-        return secondname;
+        return lastname;
     }
 
     public void setSecondname(String secondname) {
-        this.secondname = secondname;
+        this.lastname = secondname;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
+    public User(int id, String name, String secondname) {
         this.id = id;
+        this.name = name;
+        this.lastname = secondname;
     }
 }

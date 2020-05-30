@@ -2,17 +2,15 @@ package Model;
 
 public class Account{
 
-    public int numerkonta;
-    public int idkonta;
-    public int stankonta;
-    public String username;
+    private int stankonta;
+    private int numerkonta;
+    private String nazwakonta;
 
 
-    public Account(int numerkonta, int idkonta, int stankonta, String username) {
-        this.numerkonta = numerkonta;
-        this.idkonta = idkonta;
+    public Account(int stankonta, int numerkonta, String nazwakonta) {
         this.stankonta = stankonta;
-        this.username = username;
-
+        this.numerkonta = numerkonta;
+        this.nazwakonta = nazwakonta;
     }
+
 }
